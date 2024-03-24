@@ -1,7 +1,19 @@
 from rest_framework import serializers
 from .models import *
 
-class RoomSerializer(serializers.ModelSerializer):
+
+class BlogSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Room
+        model = Blog
         fields = ('__all__')
+
+class CategorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Category
+        fields = ('__all__')
+
+
+# class RoomSerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model = Room
+#         fields = ('__all__')        
