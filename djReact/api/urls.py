@@ -8,6 +8,8 @@ urlpatterns = [
     path('categories/<pk>/', CategoryDetailAPIView.as_view(), name='category-detail'),
     path('categories/<pk>/blogs/', CategoryPostAPIView.as_view(), name='category-blogs'),
     path('popular-posts/', PopularPostsAPIView.as_view(), name='popular-posts'),
+    path('about/', about, name='about'),
+    path('success/',success,name='success')
     # path('data/',your_view_function,name='your_view_function')
 ]
 

@@ -12,7 +12,12 @@ class Category(models.Model):
 
 class Blog(models.Model):
     POST_CHOICES = [
-        ('POPULAR','popular')
+        ('POPULAR','popular'),
+        ('TRENDING', 'Trending'),
+        ('FEATURED', 'Featured'),
+        ('TOP_RATED', 'Top Rated'),
+        ('BEST_SELLING', 'Best Selling'),
+        ('VIRAL', 'Viral'),
     ]
     category = models.ForeignKey(Category, on_delete = models.CASCADE, null =True)
     title = models.CharField(max_length = 255)
@@ -27,7 +32,13 @@ class Blog(models.Model):
     def __str__(self):
         return self.title
 
-
+class Coffee(models.Model):
+    name = models.CharField(max_length = 100)
+    amount = models.CharField(max_length = 100)
+    order_id = models.CharField(max_length=100,blank=True)  
+    razorpay_payment_id = models.CharField(max_length = 100,blank=True)
+    email = models.EmailField(max_length = 100)
+    paid = models.BooleanField(default = False)
 # import string
 # import random
 

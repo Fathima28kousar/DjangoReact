@@ -6,3 +6,4 @@ class blogAdmin(admin.ModelAdmin):
 
 admin.site.register(Blog,blogAdmin)
 admin.site.register(Category)
+admin.site.register(Coffee)
