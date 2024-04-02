@@ -1,0 +1,50 @@
+.container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .text {
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .imageContainer {
+    margin: 20px auto;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .subTitle {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .relatedTitle {
+    color: white;
+    background-color: black;
+    padding: 10px;
+  }
+  

@@ -1,0 +1,31 @@
+.image{
+    height: 98px;
+    width: 98px;
+    border-radius: 50%;
+    image-rendering: pixelated;
+    object-fit: cover; 
+    border: none;
+}
+
+.scrollContainer {
+    overflow-x: hidden;
+}
+
+
+.innerContainer {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.text{
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .scrollContainer {
+        overflow-x: auto;
+        scrollbar-width: thin;
+        scrollbar-color: #ccc transparent;
+    }
+}

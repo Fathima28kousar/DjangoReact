@@ -1,0 +1,45 @@
+.rightbar {
+  padding: 2rem;
+}
+
+.image {
+  width: 400px;
+  cursor: pointer;
+}
+
+.image:hover {
+  opacity: 0.8;
+  transition: all 0.50s ease;
+}
+
+.text {
+  text-align: left;
+}
+
+.card {
+  height: 200px;
+}
+
+.subscribe {
+  color: white;
+  background-color: tomato;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.subscribeForm {
+  padding-left: 2.5rem;
+}
+
+.emailInput {
+  margin-right: 0.5rem;
+}
+
+.sendButton {
+  background-color: tomato;
+  border: none;
+}
+
+.sendButton:hover {
+  background-color: darkred;
+}

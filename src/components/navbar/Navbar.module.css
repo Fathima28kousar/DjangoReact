@@ -1,0 +1,27 @@
+nav{
+    .customBrand{
+        font-size: 2.4rem; /* Equivalent to h4 in Material-UI */
+        color: #ff6347 !important;
+        font-family: 'Splash', cursive;
+    }
+}
+
+.heading{
+    h5{
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .h5{
+        color: #ff6347 !important;
+        font-family: 'Splash', cursive;
+    }
+}
+
+@media (max-width:350px){
+    nav{
+        .customBrand{
+            font-size: 1.5rem;
+        }
+    }
+}
+
