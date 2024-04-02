@@ -11,18 +11,18 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
------------->So git add djReact/frontend
------------->  git commit -m "tst"
+So git add djReact/frontend
+ git commit -m "tst"
 
 PS D:\ReactDjango\djReact\frontend> git push
 fatal: No configured push destination.
 Either specify the URL from the command-line or configure a remote repository using
 
-    git remote add <name> <url>
+    ##git remote add <name> <url>
 
 and then push using the remote name
 
-    git push <name>
----------------->So git remote add origin <remote_repository_url>
----------------->git push -u origin main
+    ##git push <name>
+git remote add origin <remote_repository_url>
+git push -u origin main
 
